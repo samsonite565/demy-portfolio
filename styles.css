@@ -13,17 +13,25 @@ body {
   margin: 0;
 }
 
-.navbar {
-  display: flex;
-}
-.navbar div {
-  margin-left: auto;
-}
-
-h1 {
-  margin: 10px;
-}
 a a:visited {
   color: blue;
   text-decoration: none;
 }
+/* The above code consists of contants and global variables */
+.navbar {
+  display: flex;
+  gap: 2rem;
+}
+.navbar .navilogo {
+  padding-left: 1rem;
+}
+.navbar .naviplane {
+  display: flex;
+  margin-left: auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+h1 {
+  margin: 1rem;
+}
+
