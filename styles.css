@@ -1,0 +1,29 @@
+:root {
+  --background-color: hsl(50, 69%, 91%);
+  --secondary-color: hsl(51, 51%, 84%);
+  --third-color: hsl(51, 25%, 63%);
+  --fourth-color: hsl(48, 18%, 27%);
+  --textual-color: hsl(0, 0%, 0%);
+}
+
+html {
+  background-color: var(--background-color);
+}
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+}
+.navbar div {
+  margin-left: auto;
+}
+
+h1 {
+  margin: 10px;
+}
+a a:visited {
+  color: blue;
+  text-decoration: none;
+}
