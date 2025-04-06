@@ -83,18 +83,23 @@ h1,h2,h3 {
 .intro_section {
   display:flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   padding: 3rem 0 4rem;
   color: whitesmoke;
   background-color: var(--textual-color);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
-.intro_section .left {
-  text-align: center;
+.hero_left {
+  text-align: right;
   align-self: center;
   font-size: calc(25/16*1rem);
   flex: 1;
+  line-height: .38;
 }
-.intro_section img {
+.hero_right {
   border-radius: 50%;
-  padding: 0 calc(70 / 16 * 1rem);
+  flex:1;
+} 
+.hero_right > img {
+  border-radius: 5%;
 }
